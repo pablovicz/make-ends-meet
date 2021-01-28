@@ -1,0 +1,59 @@
+.header-container {
+  
+  background-color: #FFF;
+  position: absolute;
+
+  top: 0px;
+  left: 350px;
+  width: calc(100vw - 350px);
+  height: 120px;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.greeting-container {
+  margin-left: 45px;
+
+  display: flex;
+  align-items: center;
+}
+
+.greeting-text {
+  margin-left: 45px;
+  font-family: Nunito, Bold;
+}
+
+.hello-user {
+  font-size: 24px;
+  line-height: 15px;
+
+  color: #000;
+}
+
+.welcome-user {
+
+  font-size: 20px;
+  line-height: 10px;
+  padding-left: 20px;
+
+  color:#FCBE11;
+}
+
+.notification-icon{
+  transform: rotate(45deg);
+  color: #000;
+
+  padding-left: 30px;
+  padding-bottom: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.notification-icon:hover{
+  fill: #FCBE11;
+  transform: rotate(0deg);
+  transition: all 250ms;
+}

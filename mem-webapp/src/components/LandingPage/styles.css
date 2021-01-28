@@ -1,0 +1,16 @@
+.landing-page-container{ 
+
+  height: 100hv;
+  width: 100wh;
+
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+

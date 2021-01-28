@@ -1,0 +1,8 @@
+.bills-page-container {
+
+  position: absolute;
+  left: 350px;
+  top: 120px;
+  width: calc(100vw - 350px);
+  height: 100vh;
+}
