@@ -24,7 +24,6 @@ function Sidebar(){
       <Link className="logout-container" to="/logout">
         <FiLogOut className="logout-icon"/>
       </Link>
-      
     </div>
   );
 }

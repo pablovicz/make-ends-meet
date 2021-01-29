@@ -6,7 +6,9 @@ function BillsPage(){
   return (
     <div className="bills-page-container">
       <Navbar />
-      <BillsRoutes />
+      <div className="bills-tab-container">
+        <BillsRoutes />
+      </div>
     </div>
   );
 }

@@ -1,15 +1,20 @@
 .sidebar-container {
-  width: 350px;
+
+  width: 20vw;
   height: 100vh;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
   background-color: #00B2FF;
 }
 
 .sidebar-logo-container{
-  display:flex;
-
+  
   padding-top: 15px;
 
+  display:flex;
   align-items: center;
   justify-content: center;
 }
@@ -17,8 +22,8 @@
 
 .sidebar-logo-container-image{ 
 
-  height: 110px;
-  width: 110px;
+  height: 80px;
+  width: 80px;
 
   cursor: pointer;
 
@@ -31,9 +36,9 @@
 }
 
 .sidebar-logo-container-text {
-  font-family: Nunito, Bold;
 
-  font-size: 15px;
+  font-family: Nunito, Bold;
+  font-size: 12px;
   line-height: 5px;
 
   color: #FFF; 
@@ -48,20 +53,19 @@
 
 .sidebar-options-container{
 
-  width: 300px;
-  padding-top: 112.5px;
-  padding-left: 60px;
-  padding-bottom: 20px;
+  padding-left: calc(20vw - 200px);
+  display: flex;
+  flex-direction: column;
 }
+
 
 .sidebar-btn {
 
   display: flex;
-
   cursor: pointer;
   text-decoration: none;
 
-  width: 290px;
+  width: 200px;
   height: 55px;
   border-radius: 10px 0px 0px 10px;
   margin-bottom: 10px;
@@ -72,6 +76,7 @@
 
   justify-content: flex-start;
   align-items: center;
+  
 }
 
 .active {
@@ -96,8 +101,7 @@
 .sidebar-title {
 
   font-family: Nunito, Bold;
-
-  font-size: 20px;
+  font-size: 16px;
   line-height: 10px;
 
   color: #FFF;
@@ -113,8 +117,8 @@
 
 .sidedar-icon {
 
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-left: 20px;
   margin-right: 20px;
 
@@ -129,17 +133,18 @@
 
 .logout-container{ 
 
-  width: 300px;
-  
-  position: absolute;
-  left: 125px;
-  bottom: 40px;
+  width: 20vw;
+  padding-bottom: 20px;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logout-icon { 
 
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 
   color: #FFF
 }
