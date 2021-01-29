@@ -1,7 +1,9 @@
 
 function CurrentTab(){
   return ( 
-    <div></div>
+    <div>
+      <h1>Current tab</h1>
+    </div>
   );
 }
 

@@ -1,10 +1,11 @@
 import BillsRoutes from '../../routers/BillsRoutes';
+import Navbar from './components/NavBar';
 import './styles.css';
 
 function BillsPage(){
   return (
     <div className="bills-page-container">
-      <h1>Bills</h1>
+      <Navbar />
       <BillsRoutes />
     </div>
   );
