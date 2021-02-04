@@ -20,9 +20,9 @@
 
   display:flex;
 
-  border-left: 4px solid#C4C4C4;
-  border-right: 4px solid #C4C4C4;
-  border-bottom: 4px solid #C4C4C4;
+  border-left: 2px solid#C4C4C4;
+  border-right: 2px solid #C4C4C4;
+  border-bottom: 2px solid #C4C4C4;
 
   z-index: 0;
 }
@@ -33,7 +33,7 @@
   width: 80vw;
   height: 60px;
 
-  border-bottom: 4px solid #C4C4C4;
+  border-bottom: 2px solid #C4C4C4;
 
   display: flex;
   align-items: flex-end;
@@ -59,7 +59,6 @@
   justify-content: center;
 
   font-family: Nunito, Bold;
-
   font-size: 8px;
   line-height: 4px;
 }
@@ -71,19 +70,17 @@
 
 
 .navbar-disabled:hover {
-  background-image: linear-gradient(to top, #C4C4C4, #FFF); 
+ 
   opacity: 50%; 
-  transition: all 100ms;
-
+  background-image: linear-gradient(to top, #C4C4C4, #FFF); 
   border-bottom: 3px solid #9D9D9D;
-
   color: #000;  
+  transition: all 100ms;
 }
 
 .navbar-actived {
   color: #000;
   background-image: linear-gradient(to top, #C4C4C4, #FFF);
-
   border-bottom: 3px solid #000;
 }
 
@@ -97,7 +94,6 @@
 
 .tab-header {
   height: 60px;
-
   padding: 10px;
 
   display: flex;
@@ -107,32 +103,60 @@
 }
 
 .tab-header-seach-box {
-  width: 300px;
+  width: 200px;
   height: 40px;
-
   margin-left: 20px;
 
-  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+
   background-color: #FFF;
-  border: 2px solid #C4C4C4;
+  color:#C4C4C4;
 }
+
+.tab-header-seach-box:hover {
+  border-bottom: 2.5px solid #FCBE11;
+  transition: all 100ms;
+  color:#FCBE11;
+}
+
+
+.tab-header-seach-box input {
+  height: 39px;
+  outline: 0;
+  border-width: 0 0 2.5px;
+  border-color: #C4C4C4;
+  color:#000;
+}
+
+::placeholder { 
+  color: #C4C4C4;
+  opacity: 1;
+}
+
+::placeholder:hover { 
+  color: #FCBE11;
+}
+
+.tab-header-seach-box input:focus, input:hover {
+  border-color: #FCBE11;
+}
+
 
 .tab-header-button{
   width: 177px;
   height: 42px;
-
-  margin-right: 20px;
-
-  background-color: #FCBE11;
-
   border-radius: 10px;
+  margin-right: 20px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
+  background-color: #FCBE11;
   color: #FFFF;
-
 
   font-family: Nunito, Bold;
   font-size: 10px;
@@ -150,5 +174,4 @@
   
   margin-right: 10px;
 }
-
 
