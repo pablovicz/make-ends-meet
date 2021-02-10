@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
+import Footer from '../../components/Footer/Footer';
+
 import './splash-page.css';
 
 import LogoImg from '../../assets/logos/splash-logo.gif';
+import Header from '../../components/Header/Header';
+
+
 
 function SplashPage(){
   return (

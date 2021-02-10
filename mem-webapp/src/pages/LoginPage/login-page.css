@@ -1,0 +1,257 @@
+.page-content {
+  display: flex;
+  height: calc(100vh - 180px);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-title{
+  font-family: Nunito, Bold;
+  font-size: 34px;
+  color: #FCBE11;
+}
+
+.login-form {
+  
+  width: calc(45vw - 40px);
+  margin-left: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  
+  width: calc(45vw - 40px);
+  margin-right: 40px;
+    
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image {
+
+  width: 500px;
+  height: 500px;
+}
+
+.form-container {
+
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content {
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.username-container, .password-container{
+
+  width: 400px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  border-bottom: 1.5px solid #C4C4C4;
+  color: #C4C4C4;
+  
+
+  margin-bottom: 10px;
+}
+
+.username-container:hover, .password-container:hover, .username-container:focus, .password-container:focus {
+  border-bottom: 1.5px solid #000;
+  color: #000;
+  
+}
+
+::placeholder { 
+  color: #C4C4C4;
+  opacity: 1;
+  text-align: center;
+}
+
+.username-input, .password-input{
+
+  padding-left: 10px;
+
+  outline: none;
+  border: none;
+}
+
+.username-input {
+  width: 370px;
+}
+
+.password-input {
+  width: 340px;
+}
+
+.show-password-button {
+  background-color: #FFF;
+
+  border: none;
+
+}
+
+.checkbox-container {
+  font-family: Nunito, Bold;
+  font-size: 16px;
+
+  padding-top: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.checkbox-container label {
+  padding-left: 10px;
+}
+
+.submit-button {
+
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+  border: 0px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: #FCBE11;
+  color: #FFF;
+
+
+  font-family: Nunito, Bold;
+  font-size: 20px;
+}
+
+.submit-button:hover{
+
+  transition: all 250ms linear;
+  color:#78BA22;
+  background-color: #F9BE2C;
+  opacity: 0.95;
+}
+
+
+.or-container {
+
+  width: 400px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.or-container hr {
+  width: 150px;
+}
+
+.or-container h2 {
+  font-family: Nunito, SemiBold;
+  font-size: 16px;
+}
+
+
+.sign-in-options {
+
+  width: 400px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.facebook-button, .google-button{
+
+  width: 190px;
+  height: 50px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: Nunito, SemiBold;
+  font-size: 12px;
+  
+  color: #FFF;
+  fill: #FFF;
+}
+
+.facebook-button:hover, .google-button:hover {
+  opacity: 0.90;
+}
+
+.facebook-button {
+  background-color: #3954B3;
+}
+
+.google-button {
+  background-color: #CF2A2A;
+}
+
+.google-icon, .facebook-icon {
+  width: 30px;
+  height: 30px;
+
+  padding-left: 10px;
+}
+
+.facebook-button h2, .google-button h2 {
+  padding-right: 10px;
+}
+
+
+.sign-up-container {
+
+  width: 400px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  font-family: Nunito, Regular;
+  font-size: 12px;
+
+  margin-top: 10px;
+}
+
+
+
+.sign-up-text {
+
+  padding-left: 10px;
+
+  color: #FCBE11;
+}
+
+.sign-up-text:hover{
+
+  opacity: 0.8;
+}
+
+
+

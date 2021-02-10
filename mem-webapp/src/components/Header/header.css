@@ -1,0 +1,36 @@
+.header-container{
+  width: 100wh;
+  height: 80px;
+
+  background-color: #00B2FF;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-container{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+  margin-left: 40px;
+
+  color: #FFF;
+  fill: #FFF;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-title {
+  font-family: Nunito, SemiBold;
+  font-size: 22px;
+  line-height: 5px;
+
+  padding-left: 10px;
+}

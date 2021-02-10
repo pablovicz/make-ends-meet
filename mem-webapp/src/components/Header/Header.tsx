@@ -1,4 +1,6 @@
-import {ReactComponent as MainLogo} from '../assets/logos/mem-main-logo.svg';
+import './header.css';
+
+import {ReactComponent as MainLogo} from '../../assets/logos/mem-main-logo.svg';
 
 function Header(){
   return (

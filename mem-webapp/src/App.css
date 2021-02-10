@@ -27,7 +27,7 @@ a {
   width: calc(100vw - 350px);
 }
 
-.splash-container {
+.splash-container , .login-container{
   width: 100vw;
   height: 100vh;
 
@@ -35,3 +35,4 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
+

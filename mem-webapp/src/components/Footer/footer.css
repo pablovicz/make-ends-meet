@@ -1,0 +1,39 @@
+.footer-content {
+  width: 100wh;
+  height: 60px;
+
+  color:#00B2FF;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.copyright-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.copyright-text {
+  font-family: Nunito, SemiBold;
+  font-size: 14px;
+  line-height: 5px;
+
+  padding-left: 10px;
+}
+
+.github-icon {
+  
+  color: #00B2FF;
+}
+
+.linkedin-icon {
+  padding-right: 20px;
+  color: #00B2FF;
+}
